@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barista Portfolio | Premium Coffee Experience</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio profissional de Barista focado em cafés especiais, arte e técnica.">
+
+    <link rel="icon" type="image/png" href="grao-de-cafe.png">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">FTcoffee<span>.Art</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#specialties">Especialidades</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="img-video/mixkit-close-up-view-serving-a-sparkling-cappuccino-41858-hd-ready.mp4"
+                    type="video/mp4">
+            </video>
+            <div class="container hero-content">
+                <!-- <span class="hero-tag">Especialista em Cafés Especiais</span> -->
+                <h1 class="hero-title">A Arte da Extração <br><em>Perfeita</em>.</h1>
+                <p class="hero-subtitle">Me chamo Felipe Tavares e a um ano estou levando a cada xícara uma experiência
+                    sensorial única através da arte e paixão pelo café.</p>
+                <div class="hero-actions">
+                    <a href="https://chisel-muenster-631.notion.site/Curr-culo-Felipe-Tavares-Baki-1d562519125f8011993cd62d2be8c99b?source=copy_link"
+                        target="_blank" class="btn btn-primary">Meu Curriculo</a>
+                    <a href="#contact" class="btn btn-outline">Solicitar Evento</a>
+                </div>
+            </div>
+            <div class="hero-overlay"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container grid-2">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="./img/Screenshot_20260208_230604_Photos~2.jpg" alt="Barista em ação">
+                        <div class="image-decor"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">Jornada do barista</h2>
+                    <p>Sou barista há um ano, com experiência em preparo de cafés especiais, extrações manuais e espresso, além de vaporização de leite e atendimento ao cliente. Tenho paixão por café, atenção aos detalhes e busco sempre oferecer uma experiência de qualidade, unindo técnica, sabor e hospitalidade. 
+                    </p>
+                    <p>
+                        Além da minha atuação como barista, sou programador front-end, unindo criatividade, estética e funcionalidade. Assim como no café, busco criar experiências bem pensadas, onde cada detalhe conta — seja em uma xícara ou em uma interface de sistema. 
+                    </p>
+                    <a class="link-github"href="https://github.com/Tavares1122" target="_blank">confira aqui meu github</a>.
+                </div>
+            </div>
+        </section>
+
+        <!-- Specialties Section -->
+        <section id="specialties" class="specialties section">
+            <div class="container-fluid">
+                <div class="section-header container">
+                    <h2 class="section-title">A Maestria dos Métodos</h2>
+                    <p class="section-subtitle">A extração perfeita depende do equilíbrio entre tempo, temperatura e
+                        técnica.</p>
+                </div>
+
+                <div class="methods-wrapper">
+                    <div class="methods-scroll">
+                        <!-- Hario V60 -->
+                        <div class="method-card">
+                            <div class="method-image">
+                                <img src="./img/jhunelle-francis-sardido-peu0ozQaDAs-unsplash.jpg" alt="Hario V60">
+                            </div>
+                            <div class="method-info">
+                                <h3>Hario V60</h3>
+                                <p>Filtro de papel em formato espiral que realça a acidez e doçura natural do grão.</p>
+                                <span class="method-tag">Complexidade Media</span>
+                            </div>
+                        </div><!-- Chemex -->
+                        <div class="method-card">
+                            <div class="method-image">
+                                <img src="./img/yanal-tayyem-CgyObTe1IjQ-unsplash.jpg" alt="Chemex">
+                            </div>
+                            <div class="method-info">
+                                <h3>Chemex</h3>
+                                <p>Design icônico com filtros super densos para uma xícara cristalina e sem sedimentos.
+                                </p>
+                                <span class="method-tag">Clareza Líquida</span>
+                            </div>
+                        </div><!-- Prensa Francesa -->
+                        <div class="method-card">
+                            <div class="method-image">
+                                <img src="./img/ilinca-roman-FsbyRrEXBOI-unsplash.jpg" alt="Prensa Francesa">
+                            </div>
+                            <div class="method-info">
+                                <h3>Prensa Francesa</h3>
+                                <p>Infusão completa que mantém os óleos essenciais, resultando em um corpo denso e rico.
+                                </p>
+                                <span class="method-tag">Corpo Intenso</span>
+                            </div>
+                        </div><!-- Espresso -->
+                        <div class="method-card">
+                            <div class="method-image">
+                                <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=600&q=80"
+                                    alt="Espresso">
+                            </div>
+                            <div class="method-info">
+                                <h3>Espresso</h3>
+                                <p>A alma do café. Pressão extrema para extrair a máxima concentração de sabor e crema.
+                                </p>
+                                <span class="method-tag">Alta Pressão</span>
+                            </div>
+                        </div>
+
+                        <!-- Aeropress -->
+                        <div class="method-card">
+                            <div class="method-image">
+                                <img src="./img/depositphotos_533607372-stock-photo-a-man-whisks-milk-for.jpg"
+                                    alt="Aeropress">
+                            </div>
+                            <div class="method-info">
+                                <h3>Vaporização</h3>
+                                <p>A vaporização do leite combina aquecimento e aeração (injeção de ar) usando o vapor de uma máquina de espresso para criar uma textura cremosa, sedosa e com espuma estável, geralmente entre 60°C-65°C</p>  
+                                <span class="method-tag">Aventurero</span>
+                            </div> 
+                        </div>
+
+                        <!-- Cold Brew -->
+                        <!-- <div class="method-card">
+                            <div class="method-image">
+                                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80"
+                                    alt="Cold Brew">
+                            </div>
+                            <div class="method-info">
+                                <h3>Cold Brew</h3>
+                                <p>Extração a frio por longas horas, resultando em baixa acidez e doçura pronunciada.
+                                </p>
+                                <span class="method-tag">Paciência</span>
+                            </div>
+                        </div> -->
+
+                        <!-- Sifão -->
+                        <!-- <div class="method-card">
+                            <div class="method-image">
+                                <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80"
+                                    alt="Sifão">
+                            <!-- </div>
+                            <!-- <div class="method-info">
+                                <h3>Sifão (Globo)</h3>
+                                <p>Preparo teatral pelo método de vácuo, garantindo uma extração limpa e aromática.</p>
+                                <span class="method-tag">Teatro & Técnica</span>
+                            </div> -->
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Gallery -->
+        <section id="portfolio" class="portfolio section">
+            <div class="container">
+                <h2 class="section-title">Momentos Capturados</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item"><img
+                            src="./img/20251222_112637.jpg"
+                            alt="Café 1"></div>
+                    <div class="portfolio-item"><img
+                            src="./img/20251008_180455.jpg"
+                            alt="Café 2"></div>
+                    <div class="portfolio-item"><img
+                            src="./img/20251126_165847.jpg"
+                            alt="Café 3"></div>
+                    <div class="portfolio-item"><img
+                            src="./img/20251201_174415.jpg"
+                            alt="Café 4"></div>
+                    <div class="portfolio-item"><img
+                            src="./img/20260110_153255.jpg"
+                            alt="Café 5"></div>
+                    <div class="portfolio-item"><img
+                            src="./img/20260130_174325.jpg"
+                            alt="Café 6"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="process section">
+            <div class="container">
+                <h2 class="section-title text-center">Regulagem</h2>
+                <div class="process-timeline">
+                    <div class="process-step">
+                        <div class="step-number">01</div>
+                        <div class="step-content">
+                            <h3>Maquina e Moinho</h3>
+                            <p>Ajuste milimétrico para realçar notas sensoriais únicas.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">02</div>
+                        <div class="step-content">
+                            <h3>Extração</h3>
+                            <p>Controle de temperatura e pressão para extrair o máximo de aroma e sabor.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">03</div>
+                        <div class="step-content">
+                            <h3>Vaporização</h3>
+                            <p>criando microespuma aveludada para bebidas equilibradas e bem apresentadas.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">04</div>
+                        <div class="step-content">
+                            <h3>Apresentação</h3>
+                            <p>Apresentação perfeita para cada cliente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials section">
+            <div class="container">
+                <h2 class="section-title text-center">Experiências Reais</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Fui atendida com muita atenção, educação e eficiência.
+                        Ótima experiência, profissional competente e confiável."</p>
+                        <span class="testimonial-author">— Bruna, Cliente e Entusiasta</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Declaro que o funcionário Felipe sempre atuou com responsabilidade, profissionalismo e dedicação.
+                        Recomendo fortemente pelo excelente desempenho e compromisso demonstrados."</p>
+                        <span class="testimonial-author">— Jhonatan, Proprietário do Café do Piá</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="contact-content">
+                        <h2 class="section-title">Vamos criar algo novo?</h2>
+                        <p>Disponível para taxas, eventos corporativos e emprego fixo.</p>
+
+                        <form action="https://formsubmit.co/tavaresbaki17@gmail.com" method="POST" class="contact-form">
+                            <input type="text" name="name" placeholder="Seu Nome" required>
+                            <input type="email" name="email" placeholder="Seu Email" required>
+                            <textarea name="message" placeholder="Escreva aqui" required></textarea>
+                            <input type="hidden" name="_captcha" value="true">
+                            <input type="hidden" name="_next" value="http://127.0.0.1:3000/obrigado.html">
+                            <!-- ATENÇÃO: Descomente a linha acima e ajuste a porta (5500) se estiver rodando localmente, ou coloque a URL final do site quando publicar -->
+                            <button type="submit" class="btn btn-primary"
+                                style="background: var(--accent); border: none; width: 100%;">Enviar Mensagem</button>
+                        </form>
+
+                    </div>
+                    <div class="contact-cta">
+                        <a href="https://wa.me/5541996470672" target="_blank" class="btn btn-primary btn-large"
+                            style="display: inline-flex; align-items: center; gap: 0.7em;">
+                            Falar no WhatsApp
+                            <span style="display: flex; align-items: center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <circle cx="12" cy="12" r="12" fill="#25D366" />
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.67.15-.197.297-.767.967-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.007-.372-.009-.571-.009-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.099 3.205 5.077 4.372.71.306 1.263.489 1.695.626.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.57-.347z"
+                                        fill="#fff" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/felipe__baki?igsh=cmMxcDhqcDJoa3M0" target="_blank" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/felipe-tavares-baki-96a520196" target="_blank" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/Tavares1122" target="_blank" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/5541996470672" target="_blank" aria-label="WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <p>&copy; 2026 Barista Portfolio. Todos os direitos reservados.</p>
+                <div class="footer-bottom">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
